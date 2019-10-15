@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:text = "@string/inputnama" />
+    <EditText
+        android:id = "@+id/nama"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:hint="@string/nama" />
+    <TextView
+        android:layout_marginTop = "15dp"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:text = "@string/profesi" />
+    <CheckBox
+        android:id="@+id/laki"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dosen" />
+    <CheckBox
+        android:id = "@+id/perem"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:text = "@string/staf" />
+    <TextView
+        android:layout_marginTop = "15dp"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:text = "@string/p"/>
+    <RadioGroup
+        android:id = "@+id/rgGolongan"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content" >
+        <RadioButton
+            android:id = "@+id/rbGolongan1"
+            android:layout_width = "fill_parent"
+            android:layout_height= "wrap_content"
+            android:text = "@string/p1" />
+        <RadioButton
+            android:id = "@+id/rbGolongan2"
+            android:layout_width = "fill_parent"
+            android:layout_height= "wrap_content"
+            android:text = "@string/p2" />
+        <RadioButton
+            android:id = "@+id/rbGolongan3"
+            android:layout_width = "fill_parent"
+            android:layout_height= "wrap_content"
+            android:text = "@string/p3"/>
+        <RadioButton
+            android:id = "@+id/rbGolongan4"
+            android:layout_width = "fill_parent"
+            android:layout_height= "wrap_content"
+            android:text = "@string/p4"/>
+        <Button
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:onClick="hitung"
+            android:text="@string/tj" />
+    </RadioGroup>
+    <TextView
+        android:id = "@+id/outputNama"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:gravity = "center"
+        android:textSize = "20sp"
+        android:text = "" />
+    <TextView
+        android:id = "@+id/outputGaji"
+        android:layout_width = "fill_parent"
+        android:layout_height= "wrap_content"
+        android:gravity = "center"
+        android:textSize = "35sp"
+        android:text = "" />
+</LinearLayout>

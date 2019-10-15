@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Program Gaji</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="inputnama">Masukan Nama :</string>
+    <string name="nama">Nama</string>
+    <string name="profesi">Profesi</string>
+    <string name="dosen">Dosen</string>
+    <string name="staf">Staf</string>
+    <string name="tj">Total Gaji</string>
+    <string name="p">Pekerjaan</string>
+    <string name="p1">Kurang dari 20 SKS atau 20 Hari</string>
+    <string name="p2">20-30 SKS atau 20-30 Hari</string>
+    <string name="p3">30-40 SKS atau 30-40 Hari</string>
+    <string name="p4">Lebih dari 40 SKS atau 40 Hari</string>
+</resources>
